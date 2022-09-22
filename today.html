@@ -5,15 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cafe House</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
     <header>
         <nav>
-            <div class="container">
+            <div class="container nav-container">
                 <div class="navbar">
+                    <input type="checkbox" id="toggler">
                     <div class="navbar-left">
                         <img src="img/logo.png" alt="">
                         <span>Ashik's Cafe</span>
@@ -26,6 +28,9 @@
                             <li><a href="contact.html" class="nav">CONTACT</a></li>
                         </ul>
                     </div>
+                    <label for="toggler">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
                 </div>
             </div>
         </nav>
@@ -33,7 +38,7 @@
 
     <!-- Home section -->
     <section id="home">
-        <div class="container">
+        <div class="container home-container">
             <div class="home">
                 <div class="home-top">
                     <img src="img/light.png" alt="">
@@ -60,7 +65,7 @@
 
     <!-- Popular items -->
     <section id="popular">
-        <div class="container">
+        <div class="container popular-container">
             <div class="popular">
                 <div class="tagline">
                     <h3>
@@ -145,7 +150,7 @@
 
     <!-- Daily menu section -->
     <section id="daily">
-        <div class="container">
+        <div class="container daily-container">
             <div class="daily">
                 <div class="tagline">
                     <h3>

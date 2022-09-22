@@ -34,9 +34,18 @@ nav{
     display: grid;
     align-items: center;
 }
+nav input{
+    display: none;
+}
+nav label{
+    display: none;
+}
+/* .nav-container{
+    width: 89%;
+} */
 .navbar{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 .navbar-left span{

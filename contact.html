@@ -1,66 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cafe House</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-</head>
-<body>
-    <header>
-        <nav>
-            <div class="container">
-                <div class="navbar">
-                    <div class="navbar-left">
-                        <img src="img/logo.png" alt="">
-                        <span>Ashik's Cafe</span>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cafe House</title>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="container nav-container">
+                    <div class="navbar">
+                        <input type="checkbox" id="toggler">
+                        <div class="navbar-left">
+                            <img src="img/logo.png" alt="">
+                            <span>Ashik's Cafe</span>
+                        </div>
+                        <div class="navbar-right">
+                            <ul>
+                                <li><a href="index.html" class="nav active">HOME</a></li>
+                                <li><a href="today.html" class="nav">TODAY SPECIAL</a></li>
+                                <li><a href="menu.html" class="nav">MENU</a></li>
+                                <li><a href="contact.html" class="nav">CONTACT</a></li>
+                            </ul>
+                        </div>
+                        <label for="toggler">
+                            <i class="fa-solid fa-bars"></i>
+                        </label>
                     </div>
-                    <div class="navbar-right">
-                        <ul>
-                            <li><a href="index.html" class="nav">HOME</a></li>
-                            <li><a href="today.html" class="nav">TODAY SPECIAL</a></li>
-                            <li><a href="menu.html" class="nav">MENU</a></li>
-                            <li><a href="contact.html" class="nav active">CONTACT</a></li>
-                        </ul>
+                </div>
+            </nav>
+        </header>
+    
+        <!-- Home section -->
+        <section id="home">
+            <div class="container home-container">
+                <div class="home">
+                    <div class="home-top">
+                        <img src="img/light.png" alt="">
+                        <img src="img/light.png" alt="">
+                        <img src="img/light.png" alt="">
+                    </div>
+                    <div class="home-middle">
+                        <h3>
+                            <img src="img/header-line.png" alt="">
+                            Welcome To &nbsp 
+                            <img src="img/header-line.png" alt="">
+                        </h3>
+                        <h2>Ashik's Cafe</h2>
+                        <p>Cafe House template is a mobile-friendly responsive <span>Bootstrap v3.3.</span> 5 layout by <span>templatemo</span>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculusnec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+    
+                        <a href="#" class="btn">DETAILS</a>
+                    </div>
+                    <div class="home-bottom">
+                        <img src="img/table-set.png" alt="">
                     </div>
                 </div>
             </div>
-        </nav>
-    </header>
-
-    <!-- Home section -->
-    <section id="home">
-        <div class="container">
-            <div class="home">
-                <div class="home-top">
-                    <img src="img/light.png" alt="">
-                    <img src="img/light.png" alt="">
-                    <img src="img/light.png" alt="">
-                </div>
-                <div class="home-middle">
-                    <h3>
-                        <img src="img/header-line.png" alt="">
-                        Contact Us &nbsp 
-                        <img src="img/header-line.png" alt="">
-                    </h3>
-                    <h2>Ashik's Cafe</h2>
-                    <p>Cafe House template is a mobile-friendly responsive <span>Bootstrap v3.3.</span> 5 layout by <span>templatemo</span>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculusnec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-
-                    <a href="#" class="btn">DETAILS</a>
-                </div>
-                <div class="home-bottom">
-                    <img src="img/table-set.png" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
     <!-- Contact section -->
     <section id="contact">
-        <div class="container">
+        <div class="container contact-container">
             <h2>Send Us a Message</h2>
             <div class="contact">
                 <div class="contact-left">

@@ -5,7 +5,9 @@
 //     $(this).addClass('active');
     
 // });
-// console.log('.nav');
+
+
+
 // $(document).ready(function() {
 //     $(".nav").click(function () {
 //         if(!$(this).hasClass('active'))
