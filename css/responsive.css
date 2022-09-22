@@ -2,46 +2,60 @@
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media all and (max-width: 36em) {
-    .home-top img:first-child, .home-top img:last-child{
-        display: none;
-    }
-    nav input:checked ~ .navbar-right ul{
-        width: 40%;
-    } 
-    .home-container, .popular-container, .daily-container, .contact-container, .special-container{
-        width: 92%;
-    }
-    .home-middle{
-        width: 100%;
-    }
     .p-desc{
         align-items: center;
     }
     .p-items img{
         object-fit: cover;
     }
-    .special{
-        flex-direction: column;
-    }
     #special .tagline .hr{
         width: 70%;
     }
 
-    .menu{
+
+    /* Contact page = contact section */
+    .contact{
         flex-direction: column;
-    }
-    .menu .menu-left ul {
-        background-size: contain;
-        background-position: center;
+        row-gap: 50px;
     }
 }
 
 /* // Small devices (landscape phones, less than 768px) */
 @media all and (max-width: 48em) {
     
-    nav input:checked ~ .navbar-right ul{
-        width: 40%;
-    } 
+    .home-container, .popular-container, .daily-container, .contact-container, .special-container{
+        width: 92%;
+    }
+    /* Home section */
+    
+    .home-middle{
+        width: 100%;
+        transform: translateY(0);
+    }
+    .home-bottom{
+        transform: translateY(0);
+        /* position: absolute;
+        bottom: -120px;
+        left: 0; */
+    }
+
+    .home-top img:first-child, .home-top img:last-child{
+        display: none;
+    }
+    
+    
+    .menu{
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    .menu .menu-left ul {
+        background-size: contain;
+        background-position: center;
+    }
+    .p-items{
+        grid-template-rows: repeat(2, 1fr);
+        justify-content: center;
+    }
 }
 
 /* // Medium devices (tablets, less than 992px) */
@@ -75,10 +89,21 @@
         right: 0;
     } 
 
+    #home{
+        height: 850px;
+    }
+    
+    .special{
+        flex-direction: column;
+    }
+
 }
 
 /* // Large devices (desktops, less than 1200px) */
 @media all and (max-width: 75em) {
+    #home{
+        height: 880px;
+    }
 
 }
 

@@ -140,9 +140,10 @@ nav label{
     color: #fff;
 }
 .home-bottom{
-    /* transform: translateY(-150px); */
-    position: absolute;
+    transform: translateY(-150px);
+    /* position: absolute;
     bottom: -120px;
+    left: 0; */
 }
 .home-bottom img{
     width: 100%;
