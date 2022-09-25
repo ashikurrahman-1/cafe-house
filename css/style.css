@@ -156,7 +156,9 @@ nav label{
 .p-desc{
     margin: 100px 0;
     display: flex;
+    flex-wrap: wrap;
     column-gap: 60px;
+    row-gap: 60px;
 }
 .p-desc .p-desc-left h2{
     font-size: 35px;
@@ -340,6 +342,7 @@ nav label{
 /* Daily Menu section */
 .menus{
     display: flex;
+    flex-wrap: wrap;
     column-gap: 50px;
 }
 .menus ol{

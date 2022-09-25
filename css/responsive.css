@@ -1,10 +1,7 @@
 
 
 /* X-Small devices (portrait phones, less than 576px) */
-@media all and (max-width: 36em) {
-    .p-desc{
-        align-items: center;
-    }
+@media all and (max-width: 576px) {
     .p-items img{
         object-fit: cover;
     }
@@ -21,7 +18,7 @@
 }
 
 /* // Small devices (landscape phones, less than 768px) */
-@media all and (max-width: 48em) {
+@media all and (max-width: 768px) {
     
     .home-container, .popular-container, .daily-container, .contact-container, .special-container{
         width: 92%;
@@ -34,20 +31,12 @@
     }
     .home-bottom{
         transform: translateY(0);
-        /* position: absolute;
-        bottom: -120px;
-        left: 0; */
     }
 
     .home-top img:first-child, .home-top img:last-child{
         display: none;
     }
     
-    
-    .menu{
-        flex-direction: column;
-        row-gap: 50px;
-    }
     .menu .menu-left ul {
         background-size: contain;
         background-position: center;
@@ -59,7 +48,7 @@
 }
 
 /* // Medium devices (tablets, less than 992px) */
-@media all and (max-width: 62em) {
+@media all and (max-width: 992px) {
     /* Navbar */
     nav label{
         display: block;
@@ -100,7 +89,7 @@
 }
 
 /* // Large devices (desktops, less than 1200px) */
-@media all and (max-width: 75em) {
+@media all and (max-width: 1200px) {
     #home{
         height: 880px;
     }
@@ -108,7 +97,7 @@
 }
 
 /* // X-Large devices (large desktops, less than 1400px) */
-@media all and (max-width: 87.5em) {
+@media all and (max-width: 1400px) {
 
 }
 
