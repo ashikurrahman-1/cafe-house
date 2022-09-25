@@ -8,6 +8,9 @@
     #special .tagline .hr{
         width: 70%;
     }
+    .footer-top-right ul{
+        column-gap: 8px;
+    }
 
 
     /* Contact page = contact section */

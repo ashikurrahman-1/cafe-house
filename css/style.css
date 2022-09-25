@@ -89,6 +89,9 @@ nav label{
     column-gap: 30px;
     justify-content: space-evenly;
 }
+.home-top img{
+    width: 42%;
+}
 .home-middle{
     text-align: center;
     width: 70%;
@@ -96,7 +99,7 @@ nav label{
     transform: translateY(-120px);
 }
 .home-middle h3{
-    font-size: 56px;
+    font-size: 50px;
     font-family: 'Damion', cursive;
     color: #fff;
     font-weight: 500;
@@ -512,7 +515,7 @@ nav label{
 }
 .footer-top{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     column-gap: 30px;
     font-family: 'Open Sans', sans-serif;
 }
