@@ -2,9 +2,37 @@
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media all and (max-width: 576px) {
+    #home{
+        height: 710px;
+    }
+    .navbar-right ul{
+        width: 50% !important;
+    }
+    .nav-container{
+        width: 92%;
+    }
+
+    .home-middle h3{
+        font-size: 30px;
+    }
+    .home-middle h2{
+        font-size: 50px;
+    }
     .p-items img{
         object-fit: cover;
     }
+    .menu{
+        flex-wrap: wrap;
+        row-gap: 50px;
+    }
+    .menu .menu-left{
+        flex-basis: 100%;
+    }
+    .menu-items ul li{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
     #special .tagline .hr{
         width: 70%;
     }
@@ -69,7 +97,7 @@
         width: 30%;
         position: fixed;
         top: 80px;
-        right: -30%;
+        right: -50%;
         column-gap: 30px;
         background-color: rgba(160, 49, 49, 0.459);
         transition: right 0.5s ease-in-out;
