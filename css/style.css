@@ -347,7 +347,6 @@ nav label{
 /* Daily Menu section */
 .menus{
     display: flex;
-    flex-wrap: wrap;
     column-gap: 50px;
 }
 .menus ol{

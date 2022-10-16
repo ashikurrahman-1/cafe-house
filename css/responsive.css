@@ -67,7 +67,9 @@
     .home-top img:first-child, .home-top img:last-child{
         display: none;
     }
-    
+    .menus{
+        flex-wrap: wrap;
+    }
     .menu .menu-left ul {
         background-size: contain;
         background-position: center;
@@ -75,6 +77,9 @@
     .p-items{
         grid-template-rows: repeat(2, 1fr);
         justify-content: center;
+    }
+    .p-desc{
+        flex-wrap: wrap;
     }
 }
 
