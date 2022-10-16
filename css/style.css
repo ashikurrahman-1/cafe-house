@@ -159,7 +159,6 @@ nav label{
 .p-desc{
     margin: 100px 0;
     display: flex;
-    flex-wrap: wrap;
     column-gap: 60px;
     row-gap: 60px;
 }
